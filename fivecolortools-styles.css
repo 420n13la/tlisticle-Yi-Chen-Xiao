@@ -1,0 +1,85 @@
+/**
+ TODO(you): Write the CSS necessary for fivecolortools.html
+*/
+
+body {
+}
+
+#top{
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 32px;
+	text-align: center;
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.40em;
+	color: white;
+	font-weight: normal;
+}
+#profile{
+	text-align: center;
+	font-family: 'Alice', serif;
+	font-size: 33px;
+}
+#name{
+	text-align: center;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+}
+#date{
+	padding-bottom: 33px;
+	border-style: none none solid none;
+	border-color: grey;
+}
+h2{
+	font-family: 'zilla slab highlight', cursive;
+	font-size: 45px; 
+	font-weight: bold;
+	/*color: rgba(0, 0, 0, 0.25);*/
+	color: rgb(51, 51, 51);
+}
+#paragraph{
+	font-family: 'alice', serif;
+	font-size: 23px;
+	line-height: 32px;
+	padding-top: 20px;
+}
+a:link{
+	font-family: 'alice', serif;
+	color: #42b4d6l;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #42b4d6l;
+}
+q{
+	font-style: italic;
+	font-weight: bold;
+	background-color: gold;
+	quotes: none;
+	font-size: 23px;
+	margin-top: 20px;
+}
+article{
+	margin-left: 16.67%;
+	margin-right: 16.67%;
+}
+img{
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 120px;
+}
+#alicia{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: white 1px;
+}
+header{
+	background-image: url("images/header.png");
+	height: 500px;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/header.png");
+}
